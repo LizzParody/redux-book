@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --progress",
+    "start": "webpack-dev-server --hot --progress --port 3001",
     "build": "NODE_ENV=production node node_modules/webpack/bin/webpack.js -p --progress"
   },
   "author": "Boris Dinkevich & Ilya Gelman",
